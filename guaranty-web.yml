@@ -1,0 +1,25 @@
+server:
+  port: 8300
+
+spring:
+  application:
+    name: GUARANTY-WEB
+  zipkin:
+    base-url: http://localhost:8220
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8210/eureka
+
+logging:
+  level:
+    org.springframework: INFO
+    org.springframework.web.servlet.DispatcherServlet: DEBUG
