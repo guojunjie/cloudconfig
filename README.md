@@ -1,2 +1,2 @@
 # cloudconfig
-the config of cloud
+the config of spring cloud
