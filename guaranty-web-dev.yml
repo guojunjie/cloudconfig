@@ -9,13 +9,8 @@ feign:
   hystrix:
     enabled: true
 
-logging:
-  level:
-    org.springframework: INFO
-    org.springframework.web.servlet.DispatcherServlet: DUBUG 
-
 git:
   microservice:
     guaranty:
       web:
-        test: "test for bus new"
+        test: "test for bus OK"
