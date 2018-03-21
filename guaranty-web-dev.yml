@@ -18,4 +18,4 @@ git:
   microservice:
     guaranty:
       web:
-        test: test
+        test: test for bus
