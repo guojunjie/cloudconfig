@@ -12,4 +12,4 @@ feign:
 logging:
   level:
     org.springframework: INFO
-    org.springframework.web.servlet.DispatcherServlet: DEBUG
+    org.springframework.web.servlet.DispatcherServlet: INFO 
