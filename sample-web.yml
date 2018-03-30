@@ -1,0 +1,16 @@
+spring:
+  zipkin:
+    base-url: http://localhost:8220
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+feign:
+  hystrix:
+    enabled: true
+
+git:
+  microservice:
+    guaranty:
+      web:
+        test: "test for bus OK"
